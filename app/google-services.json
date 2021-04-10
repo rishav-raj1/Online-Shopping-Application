@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723485822891",
+    "project_id": "theshoping-c3f46",
+    "storage_bucket": "theshoping-c3f46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723485822891:android:c1b7d18f3eb77d2eee0cee",
+        "android_client_info": {
+          "package_name": "com.example.theshoping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723485822891-r7sbak5s53un2sodgshkliqplg3sviem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXrotaJG3Daz0fydsJUmNnAN2FkJm59gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723485822891-r7sbak5s53un2sodgshkliqplg3sviem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

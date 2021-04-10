@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg67"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txthead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="THESHOPING"
+        android:textSize="22dp"
+
+        />
+
+    <ScrollView
+        android:layout_below="@+id/txthead"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+           android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtwel"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_below="@+id/txthead"
+                android:layout_marginStart="20dp"
+                android:text="Welcome"
+                android:textSize="20dp"
+
+                />
+
+
+    <EditText
+        android:id="@+id/login_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+         android:layout_marginTop="15dp"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/login_pasword_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_phone_number_input"
+        android:background="@drawable/input_design"
+        android:padding="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_pasword_input"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/remember_me_chkb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Material.Drawable.CheckBox"
+            android:text="Remember me"
+            android:textColor="@color/colorPrimaryDark"
+            app:cbd_strokeColor="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginLeft="17dp"
+            />
+
+        <TextView
+            android:id="@+id/forget_password_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_1"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#fab534"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:alpha="0.8"
+        android:textSize="18sp"
+        android:text="Login"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <TextView
+        android:id="@+id/admin_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/login_btn"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/main_join_now_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_panel"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+       android:textStyle="bold"
+        android:elevation="40dp"
+        android:alpha="0.8"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:text="Create account. New to THESHOPING?"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/main_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_join_now_btn"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:text="By creating an account or logging in, you agree to THESHOPING's Privacy Policy"
+        android:textColor="#000000"
+        />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
